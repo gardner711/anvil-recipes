@@ -6,7 +6,7 @@
 - **Type**: Capability
 - **System**: ax
 - **Component**: web-service
-- **ID**: CAP-529947
+- **ID**: CAP-978542
 - **Approval**: Approved
 - **Owner**: Product Team
 - **Status**: Ready for Implementation
@@ -55,14 +55,14 @@ Implementation direction and non functional requirements of the web service
 ```mermaid
 flowchart TD
     %% Current Capability
-    CURRENT["CAP-529947<br/>Implementation Practices<br/>⚙️"]
+    CURRENT["CAP-978542<br/>Implementation Practices<br/>⚙️"]
 
     %% Internal Supporting Capabilities
-    INT1["CAP-847340<br/>Environments<br/>🌐"]
+    INT1["CAP-978643<br/>Environments<br/>🌐"]
 
     %% Downstream Impacts
     DOWN1["CAP-847291<br/>RESTful API<br/>🔌"]
-    DOWN2["CAP-426542<br/>Unit Testing<br/>🎯"]
+    DOWN2["CAP-978441<br/>Unit Testing<br/>🎯"]
 
     %% Dependencies Flow
     INT1 --> CURRENT

@@ -33,7 +33,7 @@ Standard web service template
 | Capability ID | Description |
 |---------------|-------------|
 | N/A | No upstream dependencies |
-| CAP-847340 | Web Service capability runs within this environment |
+| CAP-978643 | Web Service capability runs within this environment |
 
 ### Internal Downstream Impact
 
@@ -57,11 +57,11 @@ flowchart TD
     CURRENT["CAP-847291<br/>RESTful API<br/>🔌"]
     
     %% Internal Supporting Capabilities
-    INT1["CAP-847340<br/>Environments<br/>🌐"]
-    INT2["CAP-529947<br/>Implementation Practices<br/>⚙️"]
+    INT1["CAP-978643<br/>Environments<br/>🌐"]
+    INT2["CAP-978542<br/>Implementation Practices<br/>⚙️"]
     
     %% Downstream Impacts
-    DOWN1["CAP-426542<br/>Unit Testing<br/>🎯"]
+    DOWN1["CAP-978441<br/>Unit Testing<br/>🎯"]
     
     %% Dependencies Flow
     INT1 --> INT2

@@ -6,7 +6,7 @@
 - **Type**: Enabler
 - **ID**: ENB-847348
 - **Approval**: Approved
-- **Capability ID**: CAP-426542
+- **Capability ID**: CAP-978441
 - **Owner**: Development Team
 - **Status**: Ready for Implementation
 - **Priority**: High

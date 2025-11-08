@@ -6,7 +6,7 @@
 - **Type**: Enabler
 - **ID**: ENB-847329
 - **Approval**: Approved
-- **Capability ID**: CAP-529947
+- **Capability ID**: CAP-978542
 - **Owner**: DevOps Team
 - **Status**: Ready for Implementation
 - **Priority**: High

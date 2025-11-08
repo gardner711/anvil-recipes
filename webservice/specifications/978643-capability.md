@@ -6,7 +6,7 @@
 - **Type**: Capability
 - **System**: ax
 - **Component**: web-service
-- **ID**: CAP-847340
+- **ID**: CAP-978643
 - **Approval**: Approved
 - **Owner**: Product Team
 - **Status**: Ready for Implementation
@@ -50,12 +50,12 @@ Provide a comprehensive environment support and configuraiton across development
 ```mermaid
 flowchart TD
     %% Current Capability
-    CURRENT["CAP-847340<br/>Environments<br/>�"]
+    CURRENT["CAP-978643<br/>Environments<br/>�"]
 
     %% Downstream Impacts
-    DOWN1["CAP-529947<br/>Implementation Practices<br/>⚙️"]
+    DOWN1["CAP-978542<br/>Implementation Practices<br/>⚙️"]
     DOWN2["CAP-847291<br/>RESTful API<br/>�"]
-    DOWN3["CAP-426542<br/>Unit Testing<br/>�"]
+    DOWN3["CAP-978441<br/>Unit Testing<br/>�"]
 
     %% Dependencies Flow - Environment provides foundation for all
     CURRENT --> DOWN1
