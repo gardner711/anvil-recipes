@@ -55,7 +55,7 @@ Each environment SHALL have distinct configuration to prevent cross-environment 
 
 | Enabler ID | Description |
 |------------|-------------|
-| ENB-847292 | RESTful API uses environment configuration |
+| ENB-XXXXXX | RESTful API uses environment configuration |
 | ENB-847293 | Logging service uses environment settings |
 
 ### External Dependencies
@@ -289,4 +289,5 @@ stateDiagram-v2
     Ready --> Shutdown: Application Stop
     Shutdown --> [*]
 ```
+
 

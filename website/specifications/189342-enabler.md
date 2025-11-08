@@ -61,18 +61,13 @@ Implements a comprehensive design system and component library for the D&D 5e Pl
 
 | Enabler ID | Description |
 |------------|-------------|
-| ENB-582736 | Coding Standards Implementation - Ensures consistent code patterns |
-| ENB-228934 | Test-Driven Development Implementation - Provides testing infrastructure for components |
+| | None |
 
 ### Internal Downstream Impact
 
 | Enabler ID | Description |
 |------------|-------------|
 | ENB-501283 | Player Character Web Application - Hosts and uses the design system |
-| ENB-384629 | Character Creation Form Component - Uses design system form components |
-| ENB-652108 | Character Edit Form Component - Uses design system form components |
-| ENB-729164 | Character List Display Component - Uses design system card and layout components |
-| ENB-219576 | Character Delete Button Component - Uses design system button and modal components |
 
 ### External Dependencies
 
@@ -93,21 +88,12 @@ flowchart TD
     STORYBOOK["Storybook Docs<br/>Interactive Examples<br/>📚"]
     ICONS["Icon System<br/>40+ SVG Icons<br/>🎯"]
     
-    CODING["Coding Standards<br/>ENB-582736<br/>💻"]
-    TDD["TDD Setup<br/>ENB-228934<br/>🧪"]
-    
     WEB_APP["Web Application<br/>ENB-501283<br/>🌐"]
-    CREATE_FORM["Create Form<br/>ENB-384629<br/>📝"]
-    EDIT_FORM["Edit Form<br/>ENB-652108<br/>✏️"]
-    LIST_VIEW["List Display<br/>ENB-729164<br/>📋"]
-    DELETE_BTN["Delete Button<br/>ENB-219576<br/>🗑️"]
     
     REACT["React 18+<br/>Framework<br/>⚛️"]
     CSS_SOLUTION["CSS Solution<br/>styled-components/Tailwind<br/>🎨"]
     RADIX["Radix UI<br/>Accessible Primitives<br/>♿"]
     
-    CODING --> ENB_189342
-    TDD --> ENB_189342
     REACT --> ENB_189342
     CSS_SOLUTION --> ENB_189342
     RADIX --> ENB_189342
@@ -122,7 +108,6 @@ flowchart TD
     THEME --> COMPONENTS
     
     COMPONENTS --> WEB_APP
-    COMPONENTS --> CREATE_FORM
     COMPONENTS --> EDIT_FORM
     COMPONENTS --> LIST_VIEW
     COMPONENTS --> DELETE_BTN
@@ -137,7 +122,7 @@ flowchart TD
     
     class ENB_189342 enabler
     class REACT,CSS_SOLUTION,RADIX external
-    class CODING,TDD,WEB_APP,CREATE_FORM,EDIT_FORM,LIST_VIEW,DELETE_BTN internal
+    class WEB_APP internal
     class TOKENS,THEME,COMPONENTS,STORYBOOK,ICONS artifact
 ```
 

@@ -50,8 +50,8 @@ Implement the web application frontend using React (JavaScript library) with the
 |------------|-------------|
 | ENB-189342 | Design System components built using React |
 | ENB-847293 | Logging service uses browser console and structured logging |
-| ENB-847294 | API documentation consumed by React components |
-| ENB-847328 | JWT authentication implemented in React context/hooks |
+| ENB-XXXXXX | API documentation consumed by React components |
+| ENB-XXXXXX | JWT authentication implemented in React context/hooks |
 | ENB-847329 | Docker container serves built React static assets |
 
 ### External Dependencies
@@ -82,8 +82,8 @@ flowchart TD
     
     ENB_189342["ENB-189342<br/>Design System<br/>🎨"]
     ENB_847293["ENB-847293<br/>Logging<br/>📝"]
-    ENB_847294["ENB-847294<br/>API Docs<br/>📚"]
-    ENB_847328["ENB-847328<br/>JWT Auth<br/>🔐"]
+    ENB_847294["ENB-XXXXXX<br/>API Docs<br/>📚"]
+    ENB_847328["ENB-XXXXXX<br/>JWT Auth<br/>🔐"]
     ENB_847329["ENB-847329<br/>Docker<br/>🐳"]
     
     ENB_847347 --> ENB_189342
@@ -270,4 +270,5 @@ stateDiagram-v2
     TransformingModule --> Error: Transform Failed
     Error --> [*]
 ```
+
 

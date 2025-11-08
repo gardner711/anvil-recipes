@@ -44,10 +44,7 @@ A single-page web application that provides the user interface for all player ch
 
 | Enabler ID | Description |
 |------------|-------------|
-| ENB-432891 | Player Character REST API - Create Endpoint |
-| ENB-XXXXXX | Player Character REST API - List Endpoint |
-| ENB-XXXXXX | Player Character REST API - Update Endpoint |
-| ENB-XXXXXX | Player Character REST API - Delete Endpoint |
+| | None - REST API endpoints will be specified separately |
 
 ### Internal Downstream Impact
 

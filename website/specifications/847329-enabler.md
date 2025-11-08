@@ -42,8 +42,8 @@ Containerize the web service application using Docker to ensure consistent deplo
 
 | Enabler ID | Description |
 |------------|-------------|
-| ENB-847292 | RESTful API Endpoints must be containerized |
-| ENB-847295 | Health Check Endpoint used for Docker health checks |
+| ENB-XXXXXX | RESTful API Endpoints must be containerized |
+| ENB-XXXXXX | Health Check Endpoint used for Docker health checks |
 
 ### Internal Downstream Impact
 
@@ -64,8 +64,8 @@ Containerize the web service application using Docker to ensure consistent deplo
 flowchart TD
     ENB_847329["ENB-847329<br/>Docker Containerization<br/>🐳"]
     
-    ENB_847292["ENB-847292<br/>RESTful API Endpoints<br/>🔌"]
-    ENB_847295["ENB-847295<br/>Health Check Endpoint<br/>🏥"]
+    ENB_847292["ENB-XXXXXX<br/>RESTful API Endpoints<br/>🔌"]
+    ENB_847295["ENB-XXXXXX<br/>Health Check Endpoint<br/>🏥"]
     
     DOCKERFILE["Dockerfile<br/>Container Definition<br/>📄"]
     COMPOSE["docker-compose.yml<br/>Local Development<br/>🛠️"]
@@ -261,4 +261,5 @@ stateDiagram-v2
     Running --> Stopping: Stop Command
     Stopping --> [*]
 ```
+
 

@@ -50,7 +50,7 @@ Manage React application dependencies, third-party packages, and libraries using
 |------------|-------------|
 | ENB-189342 | Design System components depend on npm packages |
 | ENB-847329 | Docker containerization includes npm install step |
-| ENB-847348 | Testing framework dependencies installed via npm |
+| ENB-XXXXXX | Testing framework dependencies installed via npm |
 
 ### External Dependencies
 
@@ -88,7 +88,7 @@ flowchart TD
     
     ENB_189342["ENB-189342<br/>Design System<br/>🎨"]
     ENB_847329["ENB-847329<br/>Docker<br/>🐳"]
-    ENB_847348["ENB-847348<br/>Testing<br/>🧪"]
+    ENB_847348["ENB-XXXXXX<br/>Testing<br/>🧪"]
     
     NODE_MODULES --> ENB_189342
     NODE_MODULES --> ENB_847329
@@ -693,3 +693,4 @@ npm ci
 - Use .npmrc to standardize team npm configuration
 - Leverage npm scripts for common development tasks
 - Monitor bundle size impact when adding new dependencies
+
