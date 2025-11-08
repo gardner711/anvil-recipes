@@ -21,10 +21,7 @@ Standard web service template
 
 | Enabler ID |
 |------------|
-| ENB-978946 |
 | ENB-979148 |
-| ENB-979249 |
-| ENB-979350 |
 
 ## Dependencies
 
