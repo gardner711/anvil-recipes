@@ -21,7 +21,10 @@ A single website to support the user interface for the player character operatio
 
 | Enabler ID |
 |------------|
-| ENB-501283 |
+| ENB-951534 | Header |
+| ENB-055534 | Navigation |
+| ENB-874140 | Layout |
+| ENB-299518 | Home Page |
 
 ## Dependencies
 
