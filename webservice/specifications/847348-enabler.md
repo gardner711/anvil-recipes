@@ -22,9 +22,9 @@ Implement comprehensive unit tests for all API operations defined in the specifi
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
 | FR-847419 | GET Endpoint Tests | Unit tests for all GET operations including success, not found, and error scenarios | Must Have | Ready for Implementation | Approved |
-| FR-847350 | POST Endpoint Tests | Unit tests for all POST operations including validation, creation success, and conflict scenarios | Must Have | Ready for Implementation | Approved |
-| FR-847351 | PUT Endpoint Tests | Unit tests for all PUT operations including updates, validation, and not found scenarios | Must Have | Ready for Implementation | Approved |
-| FR-847352 | DELETE Endpoint Tests | Unit tests for all DELETE operations including success, not found, and cascade scenarios | Must Have | Ready for Implementation | Approved |
+| FR-847438 | POST Endpoint Tests | Unit tests for all POST operations including validation, creation success, and conflict scenarios | Must Have | Ready for Implementation | Approved |
+| FR-847439 | PUT Endpoint Tests | Unit tests for all PUT operations including updates, validation, and not found scenarios | Must Have | Ready for Implementation | Approved |
+| FR-847440 | DELETE Endpoint Tests | Unit tests for all DELETE operations including success, not found, and cascade scenarios | Must Have | Ready for Implementation | Approved |
 | FR-847420 | PATCH Endpoint Tests | Unit tests for PATCH operations including partial updates and validation | Must Have | Ready for Implementation | Approved |
 | FR-847421 | Request Validation Tests | Tests for all input validation rules, schema validation, and constraint checking | Must Have | Ready for Implementation | Approved |
 | FR-847422 | Error Response Tests | Tests for all error scenarios with proper status codes and error messages | Must Have | Ready for Implementation | Approved |

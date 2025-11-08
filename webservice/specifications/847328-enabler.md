@@ -21,7 +21,7 @@ Provide secure API access control using JSON Web Token (JWT) authentication with
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-847329 | Token Generation | Generate JWT tokens upon successful authentication with user claims | Must Have | Ready for Implementation | Approved |
+| FR-847435 | Token Generation | Generate JWT tokens upon successful authentication with user claims | Must Have | Ready for Implementation | Approved |
 | FR-847401 | Token Validation | Validate JWT tokens on protected endpoints including signature and expiration | Must Have | Ready for Implementation | Approved |
 | FR-847402 | Token Refresh | Provide mechanism to refresh expired tokens using refresh tokens | Must Have | Ready for Implementation | Approved |
 | FR-847403 | Protected Endpoints | Secure API endpoints requiring valid JWT tokens | Must Have | Ready for Implementation | Approved |

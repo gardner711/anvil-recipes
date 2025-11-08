@@ -22,7 +22,7 @@ Provide centralized logging capabilities for tracking API requests, responses, e
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
 | FR-847400 | Log Levels | Support multiple log levels: DEBUG, INFO, WARN, ERROR, FATAL | Must Have | Ready for Implementation | Approved |
-| FR-847304 | Request Logging | Log all incoming API requests with timestamp, endpoint, method, and client info | Must Have | Ready for Implementation | Approved |
+| FR-847433 | Request Logging | Log all incoming API requests with timestamp, endpoint, method, and client info | Must Have | Ready for Implementation | Approved |
 | FR-847305 | Error Logging | Capture and log all errors with stack traces and context | Must Have | Ready for Implementation | Approved |
 | FR-847306 | Structured Logging | Output logs in structured JSON format | Must Have | Ready for Implementation | Approved |
 

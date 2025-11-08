@@ -21,7 +21,7 @@ Provide standardized health check endpoints for monitoring service availability,
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-847317 | Liveness Check | Provide /health/live endpoint to indicate service is running | Must Have | Ready for Implementation | Approved |
+| FR-847434 | Liveness Check | Provide /health/live endpoint to indicate service is running | Must Have | Ready for Implementation | Approved |
 | FR-847318 | Readiness Check | Provide /health/ready endpoint to indicate service can accept traffic | Must Have | Ready for Implementation | Approved |
 | FR-847319 | Detailed Status | Provide /health endpoint with detailed component status | Must Have | Ready for Implementation | Approved |
 | FR-847320 | Dependency Checks | Verify status of critical dependencies (database, external services) | Must Have | Ready for Implementation | Approved |
