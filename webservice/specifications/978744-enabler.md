@@ -4,7 +4,7 @@
 
 - **Name**: Folder Structure
 - **Type**: Enabler
-- **ID**: ENB-097046
+- **ID**: ENB-978744
 - **Approval**: Approved
 - **Capability ID**: CAP-978542
 - **Owner**: Product Team
@@ -58,9 +58,9 @@ Ensure the project maintains a clean folder structure with implementation code s
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_097046["ENB-097046<br/>Folder Structure<br/>📁"]
+    ENB_978744["ENB-978744<br/>Folder Structure<br/>📁"]
     
-    ENB_097046 -.->|"Impacts all"| ALL_ENABLERS["All Implementation<br/>Enablers"]
+    ENB_978744 -.->|"Impacts all"| ALL_ENABLERS["All Implementation<br/>Enablers"]
     
     ALL_ENABLERS -->|"Files organized in"| IMPL_FOLDER["webservice/<br/>Implementation Folder"]
     
@@ -74,7 +74,7 @@ flowchart TD
     classDef folder fill:#fff3e0,stroke:#f57c00,stroke-width:2px
     classDef root fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
     
-    class ENB_097046 enabler
+    class ENB_978744 enabler
     class SPECS,IMPL_FOLDER,DOCS folder
     class ROOT root
 ```

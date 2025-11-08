@@ -4,7 +4,7 @@
 
 - **Name**: Logging
 - **Type**: Enabler
-- **ID**: ENB-847293
+- **ID**: ENB-979047
 - **Approval**: Approved
 - **Capability ID**: CAP-978542
 - **Owner**: Development Team
@@ -59,20 +59,20 @@ Provide centralized logging capabilities for tracking API requests, responses, e
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_847293["ENB-847293<br/>Application Logging<br/>📝"]
+    ENB_979047["ENB-979047<br/>Application Logging<br/>📝"]
     
     FILE["File System<br/>Log Files<br/>💾"]
     CONSOLE["Console Output<br/>Standard Output<br/>🖥️"]
     EXTERNAL["External Service<br/>Log Aggregation (Optional)<br/>☁️"]
     
-    ENB_847293 --> FILE
-    ENB_847293 --> CONSOLE
-    ENB_847293 -.-> EXTERNAL
+    ENB_979047 --> FILE
+    ENB_979047 --> CONSOLE
+    ENB_979047 -.-> EXTERNAL
 
     classDef enabler fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
     classDef output fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
     
-    class ENB_847293 enabler
+    class ENB_979047 enabler
     class FILE,CONSOLE,EXTERNAL output
 ```
 

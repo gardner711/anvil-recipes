@@ -4,7 +4,7 @@
 
 - **Name**: Health Check Endpoint
 - **Type**: Enabler
-- **ID**: ENB-847295
+- **ID**: ENB-979249
 - **Approval**: Approved
 - **Capability ID**: CAP-847291
 - **Owner**: Development Team
@@ -60,22 +60,22 @@ Provide standardized health check endpoints for monitoring service availability,
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_847295["ENB-847295<br/>Health Check Endpoint<br/>🏥"]
+    ENB_979249["ENB-979249<br/>Health Check Endpoint<br/>🏥"]
     
     DB["Database<br/>Data Store<br/>💾"]
     CACHE["Cache Service<br/>Redis/Memory<br/>⚡"]
     EXTERNAL["External Services<br/>Third-party APIs<br/>🌐"]
     ENB_847293["ENB-847293<br/>Application Logging<br/>📝"]
     
-    ENB_847295 --> DB
-    ENB_847295 --> CACHE
-    ENB_847295 --> EXTERNAL
-    ENB_847295 --> ENB_847293
+    ENB_979249 --> DB
+    ENB_979249 --> CACHE
+    ENB_979249 --> EXTERNAL
+    ENB_979249 --> ENB_847293
 
     classDef enabler fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
     classDef dependency fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
     
-    class ENB_847295,ENB_847293 enabler
+    class ENB_979249,ENB_847293 enabler
     class DB,CACHE,EXTERNAL dependency
 ```
 

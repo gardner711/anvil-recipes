@@ -4,7 +4,7 @@
 
 - **Name**: JWT Authentication Middleware
 - **Type**: Enabler
-- **ID**: ENB-847328
+- **ID**: ENB-979350
 - **Approval**: Approved
 - **Capability ID**: CAP-847291
 - **Owner**: Development Team
@@ -61,7 +61,7 @@ Provide secure API access control using JSON Web Token (JWT) authentication with
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_847328["ENB-847328<br/>JWT Token Authentication<br/>🔐"]
+    ENB_979350["ENB-979350<br/>JWT Token Authentication<br/>🔐"]
     
     ENB_847292["ENB-847292<br/>RESTful API Endpoints<br/>🔌"]
     ENB_847293["ENB-847293<br/>Application Logging<br/>📝"]
@@ -70,16 +70,16 @@ flowchart TD
     KEY_STORE["Key Store<br/>Secret Management<br/>🔑"]
     TOKEN_STORE["Token Store<br/>Revocation List (Optional)<br/>💾"]
     
-    AUTH_SERVICE --> ENB_847328
-    KEY_STORE --> ENB_847328
-    ENB_847328 --> ENB_847292
-    ENB_847328 --> TOKEN_STORE
-    ENB_847328 --> ENB_847293
+    AUTH_SERVICE --> ENB_979350
+    KEY_STORE --> ENB_979350
+    ENB_979350 --> ENB_847292
+    ENB_979350 --> TOKEN_STORE
+    ENB_979350 --> ENB_847293
 
     classDef enabler fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
     classDef dependency fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
     
-    class ENB_847328,ENB_847292,ENB_847293 enabler
+    class ENB_979350,ENB_847292,ENB_847293 enabler
     class AUTH_SERVICE,KEY_STORE,TOKEN_STORE dependency
 ```
 

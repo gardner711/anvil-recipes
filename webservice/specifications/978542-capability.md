@@ -21,12 +21,12 @@ Implementation direction and non functional requirements of the web service
 
 | Enabler ID |
 |------------|
-| ENB-847293 |
-| ENB-847346 |
-| ENB-847329 |
-| ENB-847342 |
-| ENB-558144 |
-| ENB-097046 |
+| ENB-979047 |
+| ENB-979754 |
+| ENB-979451 |
+| ENB-979653 |
+| ENB-978845 |
+| ENB-978744 |
 
 ## Dependencies
 

@@ -4,7 +4,7 @@
 
 - **Name**: Linter
 - **Type**: Enabler
-- **ID**: ENB-558144
+- **ID**: ENB-978845
 - **Approval**: Approved
 - **Capability ID**: CAP-978542
 - **Owner**: Product Team
@@ -63,7 +63,7 @@ Ensure code quality by identifying and resolving ALL linting issues using golang
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_558144["ENB-558144<br/>Linter<br/>📡"]
+    ENB_978845["ENB-978845<br/>Linter<br/>📡"]
     
     ENB_847346["ENB-847346<br/>Go 1.21+<br/>📡"]
     ENB_847293["ENB-847293<br/>Logging<br/>📡"]
@@ -74,19 +74,19 @@ flowchart TD
     CODE_QUALITY["Code Quality<br/>Standards<br/>✓"]
     BUILD_SUCCESS["Build Success<br/>✓"]
     
-    ENB_847346 --> ENB_558144
-    ENB_847293 --> ENB_558144
-    ENB_847292 --> ENB_558144
-    ENB_847328 --> ENB_558144
-    ENB_847341 --> ENB_558144
+    ENB_847346 --> ENB_978845
+    ENB_847293 --> ENB_978845
+    ENB_847292 --> ENB_978845
+    ENB_847328 --> ENB_978845
+    ENB_847341 --> ENB_978845
     
-    ENB_558144 --> CODE_QUALITY
+    ENB_978845 --> CODE_QUALITY
     CODE_QUALITY --> BUILD_SUCCESS
 
     classDef enabler fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
     classDef success fill:#c8e6c9,stroke:#388e3c,stroke-width:2px
     
-    class ENB_558144,ENB_847346,ENB_847293,ENB_847292,ENB_847328,ENB_847341 enabler
+    class ENB_978845,ENB_847346,ENB_847293,ENB_847292,ENB_847328,ENB_847341 enabler
     class CODE_QUALITY,BUILD_SUCCESS success
 ```
 ### API Technical Specifications (if applicable)

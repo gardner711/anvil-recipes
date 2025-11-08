@@ -4,7 +4,7 @@
 
 - **Name**: Swagger/OpenAPI Documentation
 - **Type**: Enabler
-- **ID**: ENB-847294
+- **ID**: ENB-979148
 - **Approval**: Approved
 - **Capability ID**: CAP-847291
 - **Owner**: Development Team
@@ -62,20 +62,20 @@ Provide interactive API documentation using OpenAPI 3.0 specification with Swagg
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_847294["ENB-847294<br/>Swagger/OpenAPI Documentation<br/>📚"]
+    ENB_979148["ENB-979148<br/>Swagger/OpenAPI Documentation<br/>📚"]
     
     ENB_847292["ENB-847292<br/>RESTful API Endpoints<br/>🔌"]
     SWAGGER_UI["Swagger UI<br/>Interactive Documentation<br/>🌐"]
     OPENAPI_SPEC["OpenAPI Spec<br/>JSON/YAML Definition<br/>📄"]
     
-    ENB_847292 --> ENB_847294
-    ENB_847294 --> OPENAPI_SPEC
-    ENB_847294 --> SWAGGER_UI
+    ENB_847292 --> ENB_979148
+    ENB_979148 --> OPENAPI_SPEC
+    ENB_979148 --> SWAGGER_UI
 
     classDef enabler fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
     classDef output fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
     
-    class ENB_847292,ENB_847294 enabler
+    class ENB_847292,ENB_979148 enabler
     class SWAGGER_UI,OPENAPI_SPEC output
 ```
 

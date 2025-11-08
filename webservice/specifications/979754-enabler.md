@@ -4,7 +4,7 @@
 
 - **Name**: Go + Gin Framework
 - **Type**: Enabler
-- **ID**: ENB-847346
+- **ID**: ENB-979754
 - **Approval**: Approved
 - **Capability ID**: CAP-978542
 - **Owner**: Development Team
@@ -66,7 +66,7 @@ Implement the web service backend using Go (Golang) programming language with th
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_847346["ENB-847346<br/>Go + Gin Framework<br/>🚀"]
+    ENB_979754["ENB-979754<br/>Go + Gin Framework<br/>🚀"]
     
     ENB_847341["ENB-847341<br/>Runtime Environment<br/>⚙️"]
     
@@ -75,9 +75,9 @@ flowchart TD
     GO_MODULES["Go Modules<br/>Dependency Mgmt<br/>📦"]
     
     ENB_847341 --> GO_RUNTIME
-    GO_RUNTIME --> ENB_847346
-    GIN_FW --> ENB_847346
-    GO_MODULES --> ENB_847346
+    GO_RUNTIME --> ENB_979754
+    GIN_FW --> ENB_979754
+    GO_MODULES --> ENB_979754
     
     ENB_847292["ENB-847292<br/>RESTful API<br/>🔌"]
     ENB_847293["ENB-847293<br/>Logging<br/>📝"]
@@ -86,18 +86,18 @@ flowchart TD
     ENB_847328["ENB-847328<br/>JWT Auth<br/>🔐"]
     ENB_847329["ENB-847329<br/>Docker<br/>🐳"]
     
-    ENB_847346 --> ENB_847292
-    ENB_847346 --> ENB_847293
-    ENB_847346 --> ENB_847294
-    ENB_847346 --> ENB_847295
-    ENB_847346 --> ENB_847328
-    ENB_847346 --> ENB_847329
+    ENB_979754 --> ENB_847292
+    ENB_979754 --> ENB_847293
+    ENB_979754 --> ENB_847294
+    ENB_979754 --> ENB_847295
+    ENB_979754 --> ENB_847328
+    ENB_979754 --> ENB_847329
 
     classDef enabler fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
     classDef runtime fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
     classDef downstream fill:#e8f5e8,stroke:#388e3c,stroke-width:2px
     
-    class ENB_847341,ENB_847346,ENB_847292,ENB_847293,ENB_847294,ENB_847295,ENB_847328,ENB_847329 enabler
+    class ENB_847341,ENB_979754,ENB_847292,ENB_847293,ENB_847294,ENB_847295,ENB_847328,ENB_847329 enabler
     class GO_RUNTIME,GIN_FW,GO_MODULES runtime
 ```
 

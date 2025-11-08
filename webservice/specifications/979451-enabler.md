@@ -4,7 +4,7 @@
 
 - **Name**: Containerization
 - **Type**: Enabler
-- **ID**: ENB-847329
+- **ID**: ENB-979451
 - **Approval**: Approved
 - **Capability ID**: CAP-978542
 - **Owner**: DevOps Team
@@ -62,7 +62,7 @@ Containerize the web service application using Docker to ensure consistent deplo
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_847329["ENB-847329<br/>Docker Containerization<br/>🐳"]
+    ENB_979451["ENB-979451<br/>Docker Containerization<br/>🐳"]
     
     ENB_847292["ENB-847292<br/>RESTful API Endpoints<br/>🔌"]
     ENB_847295["ENB-847295<br/>Health Check Endpoint<br/>🏥"]
@@ -72,18 +72,18 @@ flowchart TD
     IMAGE["Docker Image<br/>Deployable Artifact<br/>📦"]
     REGISTRY["Container Registry<br/>Image Storage<br/>🗄️"]
     
-    ENB_847292 --> ENB_847329
-    ENB_847295 --> ENB_847329
+    ENB_847292 --> ENB_979451
+    ENB_847295 --> ENB_979451
     
-    ENB_847329 --> DOCKERFILE
-    ENB_847329 --> COMPOSE
+    ENB_979451 --> DOCKERFILE
+    ENB_979451 --> COMPOSE
     DOCKERFILE --> IMAGE
     IMAGE --> REGISTRY
 
     classDef enabler fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
     classDef artifact fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
     
-    class ENB_847292,ENB_847295,ENB_847329 enabler
+    class ENB_847292,ENB_847295,ENB_979451 enabler
     class DOCKERFILE,COMPOSE,IMAGE,REGISTRY artifact
 ```
 

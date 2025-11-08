@@ -4,7 +4,7 @@
 
 - **Name**: Environment Configuration
 - **Type**: Enabler
-- **ID**: ENB-847341
+- **ID**: ENB-979552
 - **Approval**: Approved
 - **Capability ID**: CAP-978643
 - **Owner**: Development Team
@@ -69,26 +69,26 @@ Each environment SHALL have distinct configuration to prevent cross-environment 
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_847341["ENB-847341<br/>Runtime Environment Config<br/>⚙️"]
+    ENB_979552["ENB-979552<br/>Runtime Environment Config<br/>⚙️"]
     
     ENV_FILES[".env Files<br/>Environment Variables<br/>📄"]
     CONFIG_FILES["Config Files<br/>YAML/JSON/INI<br/>📋"]
     SECRETS["Secrets Management<br/>Encrypted Secrets<br/>🔐"]
     VALIDATOR["Config Validator<br/>Schema Validation<br/>✅"]
     
-    ENV_FILES --> ENB_847341
-    CONFIG_FILES --> ENB_847341
-    SECRETS --> ENB_847341
-    ENB_847341 --> VALIDATOR
+    ENV_FILES --> ENB_979552
+    CONFIG_FILES --> ENB_979552
+    SECRETS --> ENB_979552
+    ENB_979552 --> VALIDATOR
     
     APP["Application Runtime<br/>Running Application<br/>🚀"]
-    ENB_847341 --> APP
+    ENB_979552 --> APP
 
     classDef enabler fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
     classDef source fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
     classDef target fill:#e8f5e8,stroke:#388e3c,stroke-width:2px
     
-    class ENB_847341 enabler
+    class ENB_979552 enabler
     class ENV_FILES,CONFIG_FILES,SECRETS,VALIDATOR source
     class APP target
 ```

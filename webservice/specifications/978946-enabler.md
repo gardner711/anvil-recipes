@@ -4,7 +4,7 @@
 
 - **Name**: RESTful API Endpoints
 - **Type**: Enabler
-- **ID**: ENB-847292
+- **ID**: ENB-978946
 - **Approval**: Approved
 - **Capability ID**: CAP-847291
 - **Owner**: Development Team
@@ -62,14 +62,14 @@ Implement RESTful API endpoints supporting standard HTTP methods (GET, POST, PUT
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_847292["ENB-847292<br/>RESTful API Endpoints<br/>🔌"]
+    ENB_978946["ENB-978946<br/>RESTful API Endpoints<br/>🔌"]
     
     ENB_847293["ENB-847293<br/>Application Logging<br/>📝"]
     
-    ENB_847292 --> ENB_847293
+    ENB_978946 --> ENB_847293
 
     classDef enabler fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
-    class ENB_847292,ENB_847293 enabler
+    class ENB_978946,ENB_847293 enabler
 ```
 
 ### API Technical Specifications

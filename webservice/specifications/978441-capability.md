@@ -21,7 +21,7 @@ Ensures all API call have unit tests and integration tests that exercise the spe
 
 | Enabler ID |
 |------------|
-| ENB-847348 |
+| ENB-979855 |
 
 ## Dependencies
 

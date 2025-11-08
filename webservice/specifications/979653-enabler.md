@@ -4,7 +4,7 @@
 
 - **Name**: Package Management
 - **Type**: Enabler
-- **ID**: ENB-847342
+- **ID**: ENB-979653
 - **Approval**: Approved
 - **Capability ID**: CAP-978542
 - **Owner**: Development Team
@@ -61,28 +61,28 @@ Manage application dependencies, third-party packages, and libraries using packa
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_847342["ENB-847342<br/>Package Management<br/>📦"]
+    ENB_979653["ENB-979653<br/>Package Management<br/>📦"]
     
     REGISTRY["Package Registry<br/>npm/PyPI/Maven<br/>🌐"]
     LOCKFILE["Lock File<br/>package-lock.json<br/>🔒"]
     CACHE["Package Cache<br/>Local Cache<br/>💾"]
     
-    REGISTRY --> ENB_847342
-    ENB_847342 --> LOCKFILE
-    ENB_847342 --> CACHE
+    REGISTRY --> ENB_979653
+    ENB_979653 --> LOCKFILE
+    ENB_979653 --> CACHE
     
     INSTALL["Installed Packages<br/>node_modules<br/>📚"]
     SCANNER["Vulnerability Scanner<br/>Security Audit<br/>🔍"]
     
-    ENB_847342 --> INSTALL
-    ENB_847342 --> SCANNER
+    ENB_979653 --> INSTALL
+    ENB_979653 --> SCANNER
     INSTALL --> APP["Application<br/>Runtime Dependencies<br/>🚀"]
 
     classDef enabler fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
     classDef source fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
     classDef artifact fill:#e8f5e8,stroke:#388e3c,stroke-width:2px
     
-    class ENB_847342 enabler
+    class ENB_979653 enabler
     class REGISTRY,LOCKFILE,CACHE source
     class INSTALL,SCANNER,APP artifact
 ```
