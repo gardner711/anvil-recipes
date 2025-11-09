@@ -23,6 +23,7 @@ Describes the infrastructure requirements for the MongoDb object store
 |----|------|-------------|----------|--------|----------|
 | FR-839355 | No Demo | Do not add anything in the implementation that was explicitly specified. No demo code or placeholders unless explicitly defined. | Must Have | Ready for Implementation | Approved |
 | FR-839336 | Infrastructure Only | Only create the container and compose functions for the MongoDb store. Do not create any supporting code, javascript, or application support. | Must Have | Ready for Implementation | Approved |
+| FR-365867 | No Tests | Do not include any testing for the MongoDb store. Testing will occur in another project. | Must Have | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
