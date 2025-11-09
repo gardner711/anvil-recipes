@@ -1,35 +1,33 @@
-# Mongo Data Store
+# Folder Structure
 
 ## Metadata
 
-- **Name**: Mongo Data Store
+- **Name**: Folder Structure
 - **Type**: Enabler
-- **ID**: ENB-492038
+- **ID**: ENB-782116
 - **Approval**: Approved
 - **Capability ID**: CAP-290474
 - **Owner**: Product Team
 - **Status**: Ready for Implementation
 - **Priority**: High
 - **Analysis Review**: Required
-- **Code Review**: Required
+- **Code Review**: Not Required
 
 ## Technical Overview
 ### Purpose
-A Mongo Database with a dedicated collection for storing and managing data objects providing persistence, indexing, and query capabilities.
+Ensure the project maintains a clean folder structure with implementation separated from specifications and documentation. All implementation must reside in a dedicated subfolder named after the project (e.g., objectstorage_impl/), keeping the root directory organized and preventing mixing of specifications with implementation files.
 
 ## Functional Requirements
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-492001 | Database Instance | A MongoDB Community Server database instance SHALL be provisioned for storage | High | Not Started | Approved |
-| FR-337844 | Folder Structure | Create a dedicated subfolder named after the project (e.g., objectstorage_impl/) that contains ALL configuration or compose files. The root folder must only contain specifications/, documentation, and project-level files. | Must Have | Ready for Implementation | Not Approved |
+| FR-097067 | Separate Implementation Folder | Create a dedicated subfolder named after the project (e.g., `objectstorage_impl/`) that contains ALL environment and compose files. The root folder must only contain specifications/, documentation, and project-level files. | Must Have | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-492007 | Deployment | Infrastructure | MongoDB Community Server SHALL be deployed as a Docker container with persistent volumes | High | Not Started | Approved |
-| NFR-492008 | Data Persistence | Reliability | MongoDB data SHALL persist across container restarts using Docker volumes | High | Not Started | Approved |
+| | | | | | | |
 
 ## Dependencies
 
@@ -37,7 +35,7 @@ A Mongo Database with a dedicated collection for storing and managing data objec
 
 | Enabler ID | Description |
 |------------|-------------|
-|  | None - This is a foundational data storage enabler |
+| | |
 
 ### Internal Downstream Impact
 
@@ -47,9 +45,9 @@ A Mongo Database with a dedicated collection for storing and managing data objec
 
 ### External Dependencies
 
-**External Upstream Dependencies**: MongoDB server instance (self-hosted or MongoDB Atlas)
+**External Upstream Dependencies**: None identified.
 
-**External Downstream Impact**: All API endpoints depend on this database
+**External Downstream Impact**: None identified.
 
 ## Technical Specifications (Template)
 
