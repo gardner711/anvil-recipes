@@ -1,0 +1,88 @@
+.navigation {
+    background-color: var(--color-bg-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-md);
+    padding: var(--spacing-md);
+    width: 100%;
+}
+
+.navigation__section {
+    margin-bottom: var(--spacing-lg);
+}
+
+.navigation__section:last-child {
+    margin-bottom: 0;
+}
+
+.navigation__section-title {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: var(--spacing-sm);
+    padding: 0 var(--spacing-sm);
+}
+
+.navigation__list {
+    list-style: none;
+}
+
+.navigation__item {
+    margin-bottom: var(--spacing-xs);
+}
+
+.navigation__link {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-sm);
+    border-radius: var(--border-radius-sm);
+    color: var(--color-text-primary);
+    transition: background-color var(--transition-fast);
+    font-size: var(--font-size-base);
+}
+
+.navigation__link:hover {
+    background-color: var(--color-hover-bg);
+    color: var(--color-text-primary);
+}
+
+.navigation__link--active {
+    background-color: var(--color-active-bg);
+    border-left: 3px solid var(--color-accent-secondary);
+    padding-left: calc(var(--spacing-sm) - 3px);
+}
+
+.navigation__icon {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.navigation__badge {
+    margin-left: auto;
+    background-color: var(--color-accent-secondary);
+    color: white;
+    font-size: 12px;
+    font-weight: var(--font-weight-semibold);
+    padding: 2px 6px;
+    border-radius: 10px;
+    min-width: 20px;
+    text-align: center;
+}
+
+/* Nested items */
+.navigation__nested {
+    margin-top: var(--spacing-xs);
+    margin-left: var(--spacing-lg);
+    padding-left: var(--spacing-sm);
+    border-left: 1px solid var(--color-border);
+}
+
+.navigation__nested .navigation__link {
+    font-size: var(--font-size-small);
+}
