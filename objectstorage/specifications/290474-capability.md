@@ -1,13 +1,13 @@
-# Object Storage
+# Implementation
 
 ## Metadata
 
-- **Name**: Object Storage
+- **Name**: Implementation
 - **Type**: Capability
 - **System**: ax
 - **Component**: object-storage
 - **ID**: CAP-290474
-- **Approval**: Not Approved
+- **Approval**: Approved
 - **Owner**: Product Team
 - **Status**: Ready for Implementation
 - **Priority**: High
@@ -15,13 +15,14 @@
 
 ## Technical Overview
 ### Purpose
-Provide a data storage solution for persisting data
+Implementation direction and non functional requirements of the object storage
 
 ## Enablers
 
 | Enabler ID |
 |------------|
 | ENB-492038 |
+| ENB-782116 |
 
 ## Dependencies
 
