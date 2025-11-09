@@ -1,8 +1,8 @@
-# Implementation
+# Object Store
 
 ## Metadata
 
-- **Name**: Implementation
+- **Name**: Object Store
 - **Type**: Capability
 - **System**: ax
 - **Component**: object-storage
@@ -15,14 +15,13 @@
 
 ## Technical Overview
 ### Purpose
-Implementation direction and non functional requirements of the object storage
+Provide object storage capabilities for managing data objects with persistence, indexing, and query capabilities using MongoDB as the underlying data store.
 
 ## Enablers
 
 | Enabler ID |
 |------------|
 | ENB-492038 |
-| ENB-782116 |
 
 ## Dependencies
 
@@ -58,34 +57,34 @@ Implementation direction and non functional requirements of the object storage
 flowchart TD
     %% Current Capability
     CURRENT["Current Capability<br/>Primary Business Function<br/>🎯"]
-
+    
     %% Internal Capabilities (Same Organization)
     INT1["Supporting Capability A<br/>Core Service<br/>⚙️"]
     INT2["Supporting Capability B<br/>Data Management<br/>📊"]
     INT3["Supporting Capability C<br/>Business Logic<br/>🔧"]
-
+    
     %% External Capabilities (Different Organization)
     EXT1["External Capability A<br/>Third-party Service<br/>🌐"]
     EXT2["External Capability B<br/>Integration Point<br/>🔗"]
-
+    
     %% Internal Dependencies Flow
     INT1 --> CURRENT
     CURRENT --> INT2
     INT2 --> INT3
-
+    
     %% External Dependencies Flow
     EXT1 --> CURRENT
     CURRENT --> EXT2
-
+    
     %% Styling
     classDef current fill:#e3f2fd,stroke:#1976d2,stroke-width:3px
     classDef internal fill:#e8f5e8,stroke:#388e3c,stroke-width:2px
     classDef external fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
-
+    
     class CURRENT current
     class INT1,INT2,INT3 internal
     class EXT1,EXT2 external
-
+    
     %% Capability Grouping
     subgraph ORG1 ["Internal Organization"]
         subgraph DOMAIN1 ["Current Domain"]
@@ -97,7 +96,7 @@ flowchart TD
             INT3
         end
     end
-
+    
     subgraph ORG2 ["External Organization"]
         EXT1
         EXT2
