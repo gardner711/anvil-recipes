@@ -5,7 +5,7 @@
 - **Name**: Layout
 - **Type**: Enabler
 - **ID**: ENB-874140
-- **Approval**: Not Approved
+- **Approval**: Approved
 - **Capability ID**: CAP-924443
 - **Owner**: Product Team
 - **Status**: Ready for Implementation

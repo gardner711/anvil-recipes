@@ -5,7 +5,7 @@
 - **Name**: Header
 - **Type**: Enabler
 - **ID**: ENB-951534
-- **Approval**: Not Approved
+- **Approval**: Approved
 - **Capability ID**: CAP-924443
 - **Owner**: Product Team
 - **Status**: Ready for Implementation

@@ -5,7 +5,7 @@
 - **Name**: Navigation
 - **Type**: Enabler
 - **ID**: ENB-055534
-- **Approval**: Not Approved
+- **Approval**: Approved
 - **Capability ID**: CAP-924443
 - **Owner**: Product Team
 - **Status**: Ready for Implementation

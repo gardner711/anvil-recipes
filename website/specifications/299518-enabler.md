@@ -5,7 +5,7 @@
 - **Name**: Home Page
 - **Type**: Enabler
 - **ID**: ENB-299518
-- **Approval**: Not Approved
+- **Approval**: Approved
 - **Capability ID**: CAP-924443
 - **Owner**: Product Team
 - **Status**: Ready for Implementation

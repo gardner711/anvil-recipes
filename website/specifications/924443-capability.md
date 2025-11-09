@@ -7,7 +7,7 @@
 - **System**: ax
 - **Component**: web-site
 - **ID**: CAP-924443
-- **Approval**: Not Approved
+- **Approval**: Approved
 - **Owner**: Product Team
 - **Status**: Ready for Implementation
 - **Priority**: High
