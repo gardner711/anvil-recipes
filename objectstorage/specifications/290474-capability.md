@@ -15,13 +15,15 @@
 
 ## Technical Overview
 ### Purpose
-Provide object storage capabilities for managing data objects with persistence, indexing, and query capabilities using MongoDB as the underlying data store.
+Provide object storage capabilities for managing data objects with persistence
 
 ## Enablers
 
-| Enabler ID |
-|------------|
-| ENB-492038 |
+| Enabler ID | Description |
+|------------|-------------|
+| ENB-492038 | Mongo Data Store |
+| ENB-782116 | Folder structure ensuring clean separation of implementation from specifications |
+| ENB-801259 | Implementation |
 
 ## Dependencies
 

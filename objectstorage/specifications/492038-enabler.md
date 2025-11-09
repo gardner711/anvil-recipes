@@ -21,15 +21,14 @@ A Mongo Database with a dedicated collection for storing and managing data objec
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-492001 | Database Instance | A MongoDB Community Server database instance SHALL be provisioned for storage | High | Not Started | Approved |
-| FR-337844 | Folder Structure | Create a dedicated subfolder named after the project (e.g., objectstorage_impl/) that contains ALL configuration or compose files. The root folder must only contain specifications/, documentation, and project-level files. | Must Have | Ready for Implementation | Not Approved |
+| FR-492001 | Database Instance | A MongoDB Community Server database instance SHALL be provisioned for storage | Must Have | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-492007 | Deployment | Infrastructure | MongoDB Community Server SHALL be deployed as a Docker container with persistent volumes | High | Not Started | Approved |
-| NFR-492008 | Data Persistence | Reliability | MongoDB data SHALL persist across container restarts using Docker volumes | High | Not Started | Approved |
+| NFR-492007 | Deployment | Infrastructure | MongoDB Community Server SHALL be deployed as a Docker container with persistent volumes | Must Have | Ready for Implementation | Approved |
+| NFR-492008 | Data Persistence | Reliability | MongoDB data SHALL persist across container restarts using Docker volumes | Must Have | Ready for Implementation | Approved |
 
 ## Dependencies
 

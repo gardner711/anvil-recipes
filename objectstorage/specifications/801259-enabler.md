@@ -15,19 +15,20 @@
 
 ## Technical Overview
 ### Purpose
-Describes the implementation requirements
+Describes the infrastructure requirements for the MongoDb object store
 
 ## Functional Requirements
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-XXXXXX | No Demo | Do not add anything in the implementation that was explicitly specified. No demo code or placeholders unless explicitly defined. | [Priority] | Ready for Implementation | Approved |
+| FR-839355 | No Demo | Do not add anything in the implementation that was explicitly specified. No demo code or placeholders unless explicitly defined. | Must Have | Ready for Implementation | Approved |
+| FR-839336 | Infrastructure Only | Only create the container and compose functions for the MongoDb store. Do not create any supporting code, javascript, or application support. | Must Have | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-XXXXXX | [Name] | [Type] | [Requirement Description] | [Priority] | [Status] | [Approval] |
+| | | | | | | |
 
 ## Dependencies
 
