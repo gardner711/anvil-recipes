@@ -1,8 +1,8 @@
-# Object Storage
+# Implementation
 
 ## Metadata
 
-- **Name**: Object Storage
+- **Name**: Implementation
 - **Type**: Capability
 - **System**: ax
 - **Component**: object-storage
@@ -15,7 +15,7 @@
 
 ## Technical Overview
 ### Purpose
-Provide a data storage solution for persisting data
+Implementation direction and non functional requirements of the object storage
 
 ## Enablers
 
